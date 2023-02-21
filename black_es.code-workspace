@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "black_es"
+		},
+		{
+			"path": "../Downloads/Black"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "black_es",
+		"liveServer.settings.port": 5501
+	}
+}
