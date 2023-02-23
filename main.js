@@ -41,3 +41,17 @@ Intestazione.observe(Title);
 //     }
 
 // });
+
+//da fare il counter
+function CreateCunter(numero,final,velocità){
+    let counter=0;
+    let interval=setInterval(()=>{
+        if(counter<final){
+            counter++;
+            numero.innerHTML= counter;
+        }else{
+            clearInterval(interval)
+        }
+
+    },velocità );
+}
